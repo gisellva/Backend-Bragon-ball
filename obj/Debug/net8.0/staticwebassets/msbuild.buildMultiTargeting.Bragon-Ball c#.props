@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Bragon-Ball c#.props" />
+</Project>

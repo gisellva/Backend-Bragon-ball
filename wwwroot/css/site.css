@@ -1,0 +1,49 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    width: 300px; 
+    overflow: hidden; 
+}
+
+.card-img-top {
+    width: 100%; 
+    height: auto; 
+}
+
+.card-body {
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+
+.card-title {
+    font-size: 1.5em; 
+}
+
+.card-text {
+    color: #555; 
+}

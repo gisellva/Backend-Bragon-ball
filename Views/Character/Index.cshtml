@@ -1,0 +1,16 @@
+﻿@model Bragon_Ball_c_.Models.CharacterModel
+@{
+    ViewData["Title"] = "Index";
+ 
+}
+
+<h1>Index</h1>
+
+<div class="card">
+    <img src="@Model.Image" alt="Goku" class="card-img-top" />
+    <div class="card-body">
+        <h5 class="card-title">@Model.Name</h5>
+        <p class="card-text">Power: @Model.Power</p>
+        <p class="card-text">Race: @Model.Race</p>
+</div>
+</div>
